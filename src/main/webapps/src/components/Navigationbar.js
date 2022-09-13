@@ -17,7 +17,7 @@ export default function NavigationBar() {
             <Link to="/listPatients" className="nav-link">View Patients</Link>
           </Nav>
         </Navbar.Collapse>
-      </Container>
+      </Container> 
     </Navbar>
     </div>
   )
