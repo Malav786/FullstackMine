@@ -10,7 +10,7 @@ export default function NavigationBar() {
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         <Link to="/" className='navbar-brand'>Student Management System</Link>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" /> 
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Link to="/patient" className="nav-link">Add Patient</Link>
