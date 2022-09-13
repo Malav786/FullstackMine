@@ -9,7 +9,7 @@ export default function PatientList(props) {
   const [patients, setpatients] = useState([]);
 
   useEffect(() => {
-    getpatients();
+    getpatients(); 
   }, []);
 
   let getpatients = () => {
