@@ -5,7 +5,7 @@ import { Navigate, useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 export default function Patient(props) {
-  const [id, setId] = useState(null);
+  const [id, setId] = useState(null); 
   const [name, setName] = useState(null);
   const [age, setAge] = useState(null);
   const [address, setAddress] = useState(null);
