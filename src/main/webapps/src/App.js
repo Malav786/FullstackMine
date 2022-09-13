@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MyAlert from "./components/Alert";
 import { useState } from "react";
 
-function App() {
+function App() { 
   const [alert, setAlert] = useState(null);
 
   let showAlert = (type, message) => {
